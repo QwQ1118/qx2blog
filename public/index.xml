@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>johndoe</title>
-    <link>http://www.example.com/</link>
-    <description>Recent content on johndoe</description>
+    <title>qx2blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on qx2blog</description>
     <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 18 Jan 2001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的诞生</title>
+      <link>http://localhost:1313/zh-cn/posts/my-life/2001-01-18-blog/</link>
+      <pubDate>Thu, 18 Jan 2001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-cn/posts/my-life/2001-01-18-blog/</guid>
+      <description>&lt;p&gt;这一天，世界多了一个我&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
