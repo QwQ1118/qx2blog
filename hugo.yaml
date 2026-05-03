@@ -15,8 +15,10 @@ buildExpired: false
 googleAnalytics:  # 谷歌统计
 # Copyright: Sulv
 
-paginate: 15
-summaryLength: 140
+pagination:
+  pagerSize: 15
+summary:
+  length: 140
 
 permalinks:
   post: "/:title/"
