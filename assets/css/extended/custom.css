@@ -1,0 +1,233 @@
+/* =========================================
+   使用系统原生 Segoe UI 字体（无需加载外部文件）
+   ========================================= */
+body, h1, h2, h3, h4, h5, h6, p, a, li, button, span, div {
+  font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+  font-synthesis: none !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* =========================================
+   封面元素尺寸和间距微调
+   ========================================= */
+
+/* 头像大小 */
+.profile img {
+  width: 120px !important;
+  height: 120px !important;
+}
+
+/* 名字大小 */
+.profile .profile-title {
+  font-size: 1.5rem !important;
+  margin-top: 4px !important;
+  margin-bottom: 0 !important;
+}
+
+/* 按钮大小 */
+.profile .button {
+  font-size: 1rem !important;
+  padding: 5px 14px !important;
+}
+
+/* 按钮区间距 */
+.profile .buttons {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.profile .buttons .button:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* 社交图标区 */
+.profile .social-icons {
+  display: flex;
+  justify-content: center;
+  order: 999;
+  margin-top: 2px !important;
+}
+
+/* 社交图标大小 */
+.profile .social-icons a {
+  font-size: 1rem !important;
+}
+
+/* 封面内部紧凑 */
+.profile .profile-inner {
+  gap: 2px !important;
+}
+
+/* =========================================
+   导航栏微调
+   ========================================= */
+
+/* 左上角首页文字 */
+.logo a {
+  font-size: 1.5rem !important;
+}
+
+/* 右上角菜单图标间距 */
+#menu {
+  gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+#menu li {
+  margin: 0;
+  padding: 0 2px;
+}
+
+#menu li a {
+  padding: 0 1px;
+}
+
+/* =========================================
+   正文基础字体大小
+   ========================================= */
+body {
+  font-size: 17px;
+}
+
+/* =========================================
+   强制浅色模式下的页面背景和代码块背景
+   ========================================= */
+
+/* 当 PaperMod 认为自己处于浅色模式时 */
+html[data-theme="light"] {
+  background-color: #ffffff !important; /* 页面最外层背景 */
+}
+
+html[data-theme="light"] body {
+  background-color: #ffffff !important; /* body 背景 */
+}
+
+html[data-theme="light"] .main {
+  background-color: #ffffff !important; /* 内容区背景 */
+}
+
+html[data-theme="light"] .post-content pre,
+html[data-theme="light"] .post-content code,
+html[data-theme="light"] .highlight,
+html[data-theme="light"] .chroma {
+  background-color: #f5f5f5 !important; /* 代码块浅灰背景 */
+  color: #333 !important; /* 代码块文字深色 */
+}
+
+/* =========================================
+   个人定制代码块配色（无边框，精确到每个元素）
+   ========================================= */
+
+/* ---------- 通用样式（无外框，圆角，字体） ---------- */
+/* ---------- 通用样式（强制无任何边框） ---------- */
+.post-content pre {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 1.2rem !important;
+  margin: 1.5rem 0;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  font-family: 'Segoe UI Mono', 'Cascadia Code', 'Fira Code', monospace;
+}
+
+/* 如果 PaperMod 在外层有 .highlight 容器，也清除其边框 */
+.highlight {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* ---------- 浅色模式 ---------- */
+html[data-theme="light"] .post-content pre,
+html:not([data-theme="dark"]) .post-content pre {
+  background-color: #fdfbf7;   /* 米白色背景 */
+  color: #4a4a4a;
+}
+
+/* 关键字 class, def → 亮黄色，不加粗（所有主题） */
+.chroma .k {
+  color: #FFD700 !important;
+  font-weight: normal !important;
+}
+
+/* 类名 Me → 亮紫色 */
+.chroma .nc {
+  color: #b084eb !important;
+}
+
+/* 特殊方法 __init__ → 亮紫色，加粗 */
+.chroma .nf {
+  color: #b084eb !important;
+  font-weight: bold !important;
+}
+
+/* self 变量（内置参数） → 浅灰色 */
+html[data-theme="light"] .chroma .bp {
+  color: #a8a8a8 !important;
+}
+
+/* 普通变量名 name, birthday 等 → 浅灰色 */
+html[data-theme="light"] .chroma .nx,
+html[data-theme="light"] .chroma .n {
+  color: #a8a8a8 !important;
+}
+
+/* 操作符：. 和 = 等 → 亮红色 */
+html[data-theme="light"] .chroma .o {
+  color: #d94535 !important;
+}
+
+/* 字符串内容（包括引号整体） → 亮蓝色（因无法分离引号） */
+html[data-theme="light"] .chroma .s,
+html[data-theme="light"] .chroma .s2 {
+  color: #73b8e6 !important;
+}
+
+/* 注释保留低调灰色 */
+html[data-theme="light"] .chroma .c,
+html[data-theme="light"] .chroma .c1 {
+  color: #8b949e;
+  font-style: italic;
+}
+
+/* 其他未提到的元素统一使用亮蓝色 */
+html[data-theme="light"] .chroma .p,
+html[data-theme="light"] .chroma .mi,
+html[data-theme="light"] .chroma .mf,
+html[data-theme="light"] .chroma .nn {
+  color: #5599bb !important;
+}
+
+
+/* ---------- 深色模式（仅改变背景，颜色完全继承浅色模式） ---------- */
+html[data-theme="dark"] .post-content pre {
+  background-color: #2a2a2a !important;   /* 深灰色背景 */
+  /* 其他颜色自动继承，无需重复定义 */
+}
+
+
+/* 彻底隐藏 PaperMod 自动生成的任何子文件夹列表和多余面包屑 */
+/*.post-content .post-entry,*/
+.post-content .page-entry,
+.post-content .terms-tags,
+.post-content > ul:not(.card-grid),
+nav.breadcrumbs {
+  display: none !important;
+}
+
+/* 彻底隐藏 PaperMod 在 page 布局中自动生成的标题和面包屑 */
+.post-single > .post-header,
+.post-single > nav.breadcrumbs {
+  display: none !important;
+}\
+
+/* 永久隐藏 PaperMod 自动生成的目录框 */
+.toc {
+  display: none !important;
+}

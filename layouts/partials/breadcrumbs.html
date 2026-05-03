@@ -1,0 +1,9 @@
+{{- if .Params.breadcrumbs | default true }}
+  <nav class="breadcrumbs">
+    {{- if not .IsHome }}
+      <a href="{{ "/" | relLangURL }}">{{ site.Language.Params.home | default "Home" }}</a>
+    {{- else }}
+      <span class="breadcrumb-current">{{ site.Language.Params.home | default "Home" }}</span>
+    {{- end }}
+  </nav>
+{{- end }}

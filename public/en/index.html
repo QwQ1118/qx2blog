@@ -1,273 +1,292 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="auto" data-theme="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <title>qx2blog</title>
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="color-scheme" content="light dark">
+<head>
+	<meta name="generator" content="Hugo 0.161.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Q&#39;s blog</title>
 
+<meta name="description" content="晴的个人网站">
+<meta name="author" content="christy wu">
+<link rel="canonical" href="http://localhost:1313/en/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.73961636bb3bed261e5a3e7779cec534b48faccaa5bc527780e81a6a1e9bfaf4.css" integrity="sha256-c5YWNrs77SYeWj53ec7FNLSPrMqlvFJ3gOgaah6b&#43;vQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/img/me.jpg">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/img/me.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/img/me.jpg">
+<link rel="apple-touch-icon" href="http://localhost:1313/img/me.jpg">
+<link rel="mask-icon" href="http://localhost:1313/img/me.jpg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/en/index.xml" title="rss">
+<link rel="alternate" type="application/json" href="http://localhost:1313/en/index.json" title="json">
+<link rel="alternate" hreflang="zh-cn" href="http://localhost:1313/zh-cn/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/en/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
 
+            .list {
+                background: var(--theme);
+            }
 
-<meta name="author" content="Christy Wu">
-<meta name="description" content="Christy Wu&#39;s personal website">
-<meta name="keywords" content="blog,developer,personal">
+            .toc {
+                background: var(--entry);
+            }
+        }
 
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
 
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="qx2blog">
-  <meta name="twitter:description" content="Christy Wu&#39;s personal website">
-
-<meta property="og:url" content="http://localhost:1313/en/">
-  <meta property="og:site_name" content="qx2blog">
-  <meta property="og:title" content="qx2blog">
-  <meta property="og:description" content="Christy Wu&#39;s personal website">
+</script><meta property="og:url" content="http://localhost:1313/en/">
+  <meta property="og:site_name" content="Q&#39;s blog">
+  <meta property="og:title" content="Q&#39;s blog">
+  <meta property="og:description" content="晴的个人网站">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Q&#39;s blog">
+  <meta name="twitter:description" content="晴的个人网站">
 
-
-
-<link rel="canonical" href="http://localhost:1313/en/">
-
-
-<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
-
-
-  
-  
-  <link rel="stylesheet" href="/css/coder.css" media="screen">
-
-
-
-
-
-
-  
-    
-    
-    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
-  
-
-
-
- 
-  
-    
-    <link rel="stylesheet" href="/css/custom.css" media="screen">
-  
-
-
-
-
-
-<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
-<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
-
-<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
-
-
-<link rel="alternate" type="application/rss+xml" href="/en/index.xml" title="qx2blog" />
-
-
-<meta name="generator" content="Hugo 0.161.1">
-
-
-
-
-
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Q's blog",
+  "url": "http://localhost:1313/en/",
+  "description": "晴的个人网站",
+  "logo": "http://localhost:1313/img/me.jpg",
+  "sameAs": [
+      "https://github.com/QwQ1118/", "https://www.instagram.com/qx2_118/", "index.xml"
+  ]
+}
+</script>
 </head>
-
-
-
-
-
-
-<body class="preload-transitions colorscheme-auto">
-  
-<div class="float-container">
-    <a id="dark-mode-toggle" class="colorscheme-toggle">
-        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/en/" accesskey="h" title="Home (Alt + H)">Home</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button><span>|</span>
+                    <ul class="lang-menu">
+                        <li>
+                            <a href="http://localhost:1313/zh-cn/" title="中"
+                                aria-label="中">中</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/en/search/" title="🔍">
+                    <span>🔍</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/guestbook/" title="💬">
+                    <span>💬</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"><div class="profile">
+    <div class="profile_inner">
+        <img draggable="false" src="http://localhost:1313/img/me.jpg" alt="profile image" title=""
+            height="150" width="150" />
+        <h1>Christy Wu</h1>
+        <span></span><div class="social-icons" >
+    <a href="https://github.com/QwQ1118/" target="_blank" rel="noopener noreferrer me"
+        title="Github">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+    </a>
+    <a href="https://www.instagram.com/qx2_118/" target="_blank" rel="noopener noreferrer me"
+        title="Instagram">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+    <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+</svg>
+    </a>
+    <a href="index.xml" target="_blank" rel="noopener noreferrer me"
+        title="RSS">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
     </a>
 </div>
 
-
-  <main class="wrapper">
-    <nav class="navigation">
-  <section class="container">
-    
-    <a class="navigation-title" href="http://localhost:1313/en/">
-      qx2blog
-    </a>
-    
-    
-      <input type="checkbox" id="menu-toggle" />
-      <label class="menu-button float-right" for="menu-toggle">
-        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
-      </label>
-      <ul class="navigation-list">
-        
-          
-            <li class="navigation-item">
-              <a class="navigation-link " href="/en/about/">About</a>
-            </li>
-          
-            <li class="navigation-item">
-              <a class="navigation-link " href="/en/posts/">Blog</a>
-            </li>
-          
-        
-        
-          
-          
-          
-            
-              
-                <li class="navigation-item menu-separator">
-                  <span>|</span>
-                </li>
-                
-              
-              <li class="navigation-item">
-                <a href="/">中文 CN</a>
-              </li>
-            
-          
-        
-      </ul>
-    
-  </section>
-</nav>
-
-
-    <div class="content">
-      
-  <section class="container centered">
-  <div class="about">
-    
-  
-    <div class="avatar"><img src="/img/me.jpg" alt="avatar"></div>
-  
-
-
-
-
-    <h1>Christy Wu</h1>
-
-<h2>to humanity<br>more to free will<br></h2>
-
-
-
-    
-<ul>
-  
-    
-      <li>
-        <a href="https://github.com/QwQ1118/" aria-label="Github"   >
-          <i class="fa-brands fa-github fa-2x" aria-hidden="true"></i>
-        </a>
-      </li>
-    
-  
-    
-      <li>
-        <a href="https://www.instagram.com/qx2_118/" aria-label="Instagram"   >
-          <i class="fa-brands fa-instagram fa-2x" aria-hidden="true"></i>
-        </a>
-      </li>
-    
-  
-    
-      <li>
-        <a href="https://qx2blog.pages.dev/index.xml" aria-label="RSS" rel="alternate"  type="application/rss&#43;xml">
-          <i class="fa-solid fa-rss fa-2x" aria-hidden="true"></i>
-        </a>
-      </li>
-    
-  
-</ul>
-
-  </div>
-
-  
-
-</section>
-
-
-
+        <div class="buttons">
+            <a class="button" href="/en/about/" rel="noopener" title="About">
+                <span class="button-inner">
+                    About
+                </span>
+            </a>
+            <a class="button" href="/en/blog/" rel="noopener" title="Blog">
+                <span class="button-inner">
+                    Blog
+                </span>
+            </a>
+        </div>
     </div>
+</div>
 
-    <footer class="footer">
-  <section class="container">
-    ©
+    </main>
     
-    2026
-     Christy Wu 
-    ·
-    
-    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
-    
-  </section>
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/en/">Q&#39;s blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
 </footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a><script>
+  (function() {
+    
+    const lang = document.documentElement.lang || '';
+    
+    let homeText = 'Home';
+    if (lang.startsWith('zh')) {
+      homeText = '主页';
+    }
+    
+    const breadcrumbs = document.querySelector('.breadcrumbs');
+    if (!breadcrumbs) return;
+    const firstLink = breadcrumbs.querySelector('a');
+    if (firstLink && firstLink.textContent.trim().length < 10) {
+      
+      firstLink.textContent = homeText;
+    }
+  })();
+</script>
 
-  </main>
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
 
-  
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
 
-  
-  
-  <script src="/js/coder.js"></script>
-  
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
 
-  
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
 
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
+</script>
 </body>
 
 </html>

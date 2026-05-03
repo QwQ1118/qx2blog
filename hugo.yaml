@@ -1,0 +1,160 @@
+baseURL: https://qx2blog.pages.dev/
+locale: zh-cn
+title: Q's blog
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableEmoji: true
+enableRobotsTXT: true
+hasCJKLanguage: true
+
+buildDrafts: false
+buildFuture: true
+buildExpired: false
+
+googleAnalytics:  # 谷歌统计
+# Copyright: Sulv
+
+paginate: 15
+summaryLength: 140
+
+permalinks:
+  post: "/:title/"
+
+# 默认语言代码
+defaultContentLanguage: zh-cn
+defaultContentLanguageInSubdir: true
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  description: "晴的个人网站"
+  author: christy wu
+
+  defaultTheme: auto
+  disableThemeToggle: false
+  DateFormat: "2006-01-02"
+  ShowShareButtons: false
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideFooter: false
+  ShowWordCounts: true
+  ShowLastMod: true
+
+  ShowToc: false
+  TocOpen: true
+
+  extendCodeBackground: false
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/QwQ1118/"
+    - name: instagram
+      url: "https://www.instagram.com/qx2_118/"
+    - name: RSS
+      url: "index.xml"
+
+  assets:
+    favicon: "img/me.jpg"
+    favicon16x16: "img/me.jpg"
+    favicon32x32: "img/me.jpg"
+    apple_touch_icon: "img/me.jpg"
+    safari_pinned_tab: "img/me.jpg"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary"]
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    noClasses: false          # ← 改为 false
+    tabWidth: 4
+    # style: github           # 可注释或删除
+
+languages:
+  zh-cn:
+    weight: 1
+    label: "中"
+    # 明确指定内容目录，避免嵌套
+    contentDir: content/zh-cn
+    locale: zh-cn
+    menu:
+      main:
+        - identifier: search
+          name: 🔍
+          url: /zh-cn/search/
+          weight: 20
+        - identifier: guestbook
+          name: 💬
+          url: /zh-cn/guestbook/
+          weight: 30
+    params:
+      label:
+        text: "主页"
+      home: "主页"   
+      profileMode:
+        enabled: true
+        title: "Christy Wu"
+        imageUrl: "img/me.jpg"
+        imageWidth: 150
+        imageHeight: 150
+        buttons:
+          - name: 何为我
+            url: /zh-cn/about/
+          - name: 黄金屋
+            url: /zh-cn/goldhouse/
+  en:
+    weight: 2
+    label: "En"
+    # 明确指定内容目录，避免嵌套
+    contentDir: content/en
+    locale: en
+    menu:
+      main:
+        - identifier: search
+          name: 🔍
+          url: /en/search/
+          weight: 20
+        - identifier: guestbook
+          name: 💬
+          url: /en/guestbook/
+          weight: 30
+    params:
+      label:
+        text: "Home"
+      home: "Home" 
+      profileMode:
+        enabled: true
+        title: "Christy Wu"
+        imageUrl: "img/me.jpg"
+        imageWidth: 150
+        imageHeight: 150
+        buttons:
+          - name: About
+            url: /en/about/
+          - name: Blog
+            url: /en/blog/

@@ -1,0 +1,40 @@
+---
+title: "第一篇文章"
+date: 2026-05-04
+summary: "献给凌晨成功(80%)搭建出个人博客的我"
+---
+
+<p style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:2rem;">献给凌晨成功(80%)搭建出个人博客的我</p>
+
+其实长期以来，我都是一个特别漂浮的人，我时常无法“定住”，我有的时候甚至觉得自己站在某种边缘，或许是生活的，或许是生命的，穷极一时的我也会思考，我用什么把我留住。
+
+写一本书吗？可我不是大拿。
+追名逐利吗？可我长久以来无法做出违背我道德和思想的事情。
+
+那怎么办呢？
+
+由于某种机缘巧合，在杨紫琼因为瞬息全宇宙获奖的那一天，我在网络上不停的寻找资源，看完电影的那一个瞬间，我突然发现，我好像找到了留住的方式。
+
+没错，搭建一个个人网站。
+
+从2023年，我就着手开始完成我的想法，但当时由于对这一领域所知甚少，加上我需要弄我的毕业论文，所以我可以大言不惭的说我当时只完成了github的注册，转头来到2024年，我在春节后和爸妈去了一躺福建后，我便去了西安上班，那大概是我生命截至到现在最为痛苦的一段经历。
+
+我在2024年的年末，我从我碌碌无为的人生中乍而惊醒，我想留下些什么，这句话不断地在我脑海中盘旋。
+
+于是在2025年，我开始认真的学习python、web、llm、等一切我觉得我需要学习的知识，虽然我可以坦言我并没有学到出神入化的地步，但我现在起码不再是一片空白了。我在年头尝试了搭建网站，初见成效(如图)，但后面因为现实生活里的痛苦，让我将这个项目又再次搁置了。
+
+![25第一版网站](/img/freewill_01.jpg)
+
+幸运的是，在2025.09我脱离了让我痛苦的环境，我回到了我的家乡，昆明。
+
+在不断地收拾自己因为工作发胖的身体和被磨灭的精神后，在五月一日这一天，我突然觉得自己的三魂七魄似乎全部回来了，于是我打开电脑，再一次重新捡起了我建站的想法，很幸运，我在今天成功了百分之八十，这对我来说是不敢想象的东西，因为没有人教我，我只有deepseek和我稀薄的基础知识。
+
+无论如何，当我将这一切push到github和cloudflare时，我的一部分已经无处不在。
+
+
+<div style="text-align:center; margin-top:32px;">
+  <a href="/zh-cn/" style="display:inline-block;margin:0 4px;color:var(--secondary);text-decoration:none;font-size:16px;">主页</a>
+  <a href="/zh-cn/goldhouse/" style="display:inline-block;margin:0 4px;color:var(--secondary);text-decoration:none;font-size:16px;">>>🏠黄金屋</a>
+  <a href="/zh-cn/thinking/" style="display:inline-block;margin:0 4px;color:var(--secondary);text-decoration:none;font-size:16px;">>>🤔我思故我在</a>
+  <a href="/zh-cn/posts/我思故我在/自由意志/" style="display:inline-block;margin:0 4px;color:var(--secondary);text-decoration:none;font-size:16px;">>>🧠自由意志</a>
+</div>
