@@ -225,7 +225,7 @@ nav.breadcrumbs {
 .post-single > .post-header,
 .post-single > nav.breadcrumbs {
   display: none !important;
-}\
+}
 
 /* 永久隐藏 PaperMod 自动生成的目录框 */
 .toc {
