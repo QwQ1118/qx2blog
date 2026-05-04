@@ -231,3 +231,50 @@ nav.breadcrumbs {
 .toc {
   display: none !important;
 }
+
+/* =========================================
+   手机端进一步优化（页面更紧凑）
+   ========================================= */
+@media (max-width: 768px) {
+  /* 全局基准字号再降 1px */
+  body {
+    font-size: 15px;
+  }
+
+  /* 卡片内边距和间隙缩小 */
+  .card {
+    padding: 20px 20px !important;
+  }
+  .card-grid {
+    gap: 14px;
+  }
+
+  /* 卡片图标和标题缩小 */
+  .card-icon {
+    font-size: 1.5rem !important;
+  }
+  .card-title {
+    font-size: 0.95rem !important;
+  }
+
+  /* 文章正文区域留白减少 */
+  .post-content {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  /* 代码块更紧凑 */
+  .post-content pre {
+    font-size: 0.85rem !important;
+    padding: 0.9rem !important;
+  }
+
+  /* 首页头像和名字缩小 */
+  .profile img {
+    width: 90px !important;
+    height: 90px !important;
+  }
+  .profile .profile-title {
+    font-size: 1.3rem !important;
+  }
+}
