@@ -101,6 +101,7 @@ languages:
   zh-cn:
     weight: 1
     label: "中"
+    languageName: "中"
     # 明确指定内容目录，避免嵌套
     contentDir: content/zh-cn
     locale: zh-cn
