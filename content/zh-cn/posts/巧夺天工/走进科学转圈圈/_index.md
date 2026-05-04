@@ -1,5 +1,5 @@
 ---
-title: "自由意志"
+title: "走近科学转圈圈"
 layout: "page"
 ---
 
@@ -42,10 +42,10 @@ layout: "page"
 
 <a href="/zh-cn/" style="display:inline-block;margin-bottom:4px;color:var(--secondary);text-decoration:none;font-size:16px;">主页</a>
 <a href="/zh-cn/goldhouse/" style="display:inline-block;margin-bottom:4px;color:var(--secondary);text-decoration:none;font-size:16px;">>>🏠黄金屋</a>
-<a href="/zh-cn/thinking/" style="display:inline-block;margin-bottom:4px;color:var(--secondary);text-decoration:none;font-size:16px;">>>🤔我思故我在</a>
-<h1 style="margin-top:0;margin-bottom:20px;font-size:2rem;">自由意志</h1>
+<a href="/zh-cn/technique/" style="display:inline-block;margin-bottom:4px;color:var(--secondary);text-decoration:none;font-size:16px;">>>🔧巧夺天工</a>
+<h1 style="margin-top:0;margin-bottom:20px;font-size:2rem;">走进科学转圈圈</h1>
 
 <p style="color: #999; font-size: 1rem; line-height: 1.7; margin-bottom: 2rem;">
-  "认识我自己。"
+  "一些技术垃圾"
 </p>
 

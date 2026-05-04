@@ -79,7 +79,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ["title", "permalink", "summary"]
+    keys: ["title", "summary"]
 
 taxonomies:
   category: categories

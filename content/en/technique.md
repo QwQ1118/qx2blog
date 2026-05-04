@@ -12,19 +12,19 @@ layout: "page"
 </style>
 
 <a href="/en/" style="display:inline-block;margin-bottom:4px;color:var(--secondary);text-decoration:none;font-size:16px;">Home</a>
-<a href="/en/blog/" style="display:inline-block;margin-bottom:4px;color:var(--secondary);text-decoration:none;font-size:16px;">>>Blog</a>
+<a href="/en/blog/" style="display:inline-block;margin-bottom:4px;color:var(--secondary);text-decoration:none;font-size:16px;">>>🏠Blog</a>
 <h1 style="margin-top:0;margin-bottom:20px;font-size:2rem;">Technique</h1>
 
 <p style="color: #999; font-size: 1rem; line-height: 1.7; margin-bottom: 2rem;">
-  Some creations.
+  "Some creations."
 </p>
 
 <div class="card-grid">
-  <a class="card" href="/en/posts/technique/eternal-art/">
+  <a class="card" href="/en/posts/technique/art-of-living/">
     <span class="card-icon">🎨</span>
-    <span class="card-title">Art</span>
+    <span class="card-title">Art of Living</span>
   </a>
-  <a class="card" href="/en/posts/technique/science-wonder/">
+  <a class="card" href="/en/posts/technique/Techology/">
     <span class="card-icon">🔬</span>
     <span class="card-title">Techology</span>
   </a>

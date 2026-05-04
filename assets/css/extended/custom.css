@@ -2,7 +2,7 @@
    使用系统原生 Segoe UI 字体（无需加载外部文件）
    ========================================= */
 body, h1, h2, h3, h4, h5, h6, p, a, li, button, span, div {
-  font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+    font-family: 'Cascadia Mono', 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', monospace !important;
   font-synthesis: none !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -281,4 +281,9 @@ nav.breadcrumbs {
 
   /* 保留头像原始大小，不设置头像的缩小 */
 }
-  
+
+/* 彻底隐藏文章底部的分页导航（上一篇/下一篇） */
+.post-footer,
+.paginav {
+  display: none !important;
+}

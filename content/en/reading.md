@@ -12,20 +12,20 @@ layout: "page"
 </style>
 
 <a href="/en/" style="display:inline-block;margin-bottom:4px;color:var(--secondary);text-decoration:none;font-size:16px;">Home</a>
-<a href="/en/blog/" style="display:inline-block;margin-bottom:4px;color:var(--secondary);text-decoration:none;font-size:16px;">>>Blog</a>
+<a href="/en/blog/" style="display:inline-block;margin-bottom:4px;color:var(--secondary);text-decoration:none;font-size:16px;">>>🏠Blog</a>
 <h1 style="margin-top:0;margin-bottom:20px;font-size:2rem;">Reading</h1>
 
 <p style="color: #999; font-size: 1rem; line-height: 1.7; margin-bottom: 2rem;">
-  My shelter in books.
+  "Books are the ladder of human progress, as well as a brief refuge in the complexity of life."
 </p>
 
 <div class="card-grid">
-  <a class="card" href="/en/posts/reading/chinese-literature/">
+  <a class="card" href="/en/posts/reading/east-asia/">
     <span class="card-icon">📖</span>
-    <span class="card-title">Chinese Literature</span>
+    <span class="card-title">East Asia</span>
   </a>
-  <a class="card" href="/en/posts/reading/world-literature/">
+  <a class="card" href="/en/posts/reading/world/">
     <span class="card-icon">📜</span>
-    <span class="card-title">World Literature</span>
+    <span class="card-title">World</span>
   </a>
 </div>

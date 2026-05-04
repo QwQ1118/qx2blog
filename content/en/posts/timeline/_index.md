@@ -67,11 +67,11 @@ layout: "page"
 </style>
 
 <a href="/en/" style="display:inline-block;margin-bottom:4px;color:var(--secondary);text-decoration:none;font-size:16px;">Home</a>
-<a href="/en/blog/" style="display:inline-block;margin-bottom:4px;color:var(--secondary);text-decoration:none;font-size:16px;">>> Blog</a>
+<a href="/en/blog/" style="display:inline-block;margin-bottom:4px;color:var(--secondary);text-decoration:none;font-size:16px;">>> 🏠Blog</a>
 <h1 style="margin-top:0;margin-bottom:20px;font-size:2rem;">Timeline</h1>
 
 <p class="timeline-intro">
-  Every coordinate here marks an important moment in my life — from birth, education, to work and travel. Each milestone is a gift from time.
+ "Every coordinate here represents an important moment in my life; they are all gifts that time has given me."
 </p>
 
 <div class="timeline">

@@ -2,6 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/en/posts/thinking/free-will/</loc>
+    <lastmod>2026-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/</loc>
+    <lastmod>2026-05-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/zh-cn/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/</loc>
+    <lastmod>2026-05-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/zh-cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/posts/thinking/free-will/my-first-posts/</loc>
+    <lastmod>2026-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/technique/art-of-living/small-design/</loc>
+  </url><url>
     <loc>http://localhost:1313/en/about/</loc>
     <xhtml:link
                 rel="alternate"
@@ -13,6 +47,10 @@
                 hreflang="en"
                 href="http://localhost:1313/en/about/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/en/posts/on-the-road/abroad/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/technique/art-of-living/</loc>
   </url><url>
     <loc>http://localhost:1313/en/blog/</loc>
   </url><url>
@@ -28,6 +66,12 @@
                 href="http://localhost:1313/en/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/posts/on-the-road/domestic/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/reading/east-asia/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/thinking/metaphysics/</loc>
+  </url><url>
     <loc>http://localhost:1313/en/on-the-road/</loc>
     <xhtml:link
                 rel="alternate"
@@ -40,30 +84,6 @@
                 href="http://localhost:1313/en/on-the-road/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/posts/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/reading/</loc>
     <xhtml:link
                 rel="alternate"
@@ -74,6 +94,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/reading/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/zh-cn/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/search/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/series/</loc>
@@ -112,6 +144,8 @@
                 href="http://localhost:1313/en/technique/"
                 />
   </url><url>
+    <loc>http://localhost:1313/en/posts/technique/techology/</loc>
+  </url><url>
     <loc>http://localhost:1313/en/thinking/</loc>
     <xhtml:link
                 rel="alternate"
@@ -125,5 +159,9 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/posts/timeline/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/thinking/universe/</loc>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/reading/world/</loc>
   </url>
 </urlset>
