@@ -233,10 +233,10 @@ nav.breadcrumbs {
 }
 
 /* =========================================
-   手机端进一步优化（页面更紧凑）
+   手机端进一步优化（缩小菜单图标）
    ========================================= */
 @media (max-width: 768px) {
-  /* 全局基准字号再降 1px */
+  /* 全局基准字号 */
   body {
     font-size: 15px;
   }
@@ -248,8 +248,6 @@ nav.breadcrumbs {
   .card-grid {
     gap: 14px;
   }
-
-  /* 卡片图标和标题缩小 */
   .card-icon {
     font-size: 1.5rem !important;
   }
@@ -269,12 +267,18 @@ nav.breadcrumbs {
     padding: 0.9rem !important;
   }
 
-  /* 首页头像和名字缩小 */
-  .profile img {
-    width: 90px !important;
-    height: 90px !important;
+  /* 右上角菜单和搜索图标缩小 */
+  #menu li a {
+    font-size: 0.9rem !important;
+    padding: 0 1px !important;
   }
-  .profile .profile-title {
-    font-size: 1.3rem !important;
+  #menu {
+    gap: 2px !important;
   }
+  .logo a {
+    font-size: 1.2rem !important;
+  }
+
+  /* 保留头像原始大小，不设置头像的缩小 */
 }
+  
