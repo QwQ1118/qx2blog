@@ -212,19 +212,15 @@
     </svg>
 </a><script>
   (function() {
-    
     const lang = document.documentElement.lang || '';
-    
     let homeText = 'Home';
     if (lang.startsWith('zh')) {
       homeText = '主页';
     }
-    
     const breadcrumbs = document.querySelector('.breadcrumbs');
     if (!breadcrumbs) return;
     const firstLink = breadcrumbs.querySelector('a');
     if (firstLink && firstLink.textContent.trim().length < 10) {
-      
       firstLink.textContent = homeText;
     }
   })();
