@@ -66,11 +66,11 @@ params:
       url: "index.xml"
 
   assets:
-    favicon: "img/favicon.png"
-    favicon16x16: "favicon.png"
-    favicon32x32: "favicon.png"
-    apple_touch_icon: "favicon.png"
-    safari_pinned_tab: "img/me.jpg"
+    favicon: "img/icon.png"
+    favicon16x16: "img/icon.png"
+    favicon32x32: "img/icon.png"
+    apple_touch_icon: "img/icon.png"
+    safari_pinned_tab: "img/icon.png"
 
   fuseOpts:
     isCaseSensitive: false
