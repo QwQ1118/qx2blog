@@ -1,6 +1,7 @@
 ---
 title: "Reading"
 layout: "page"
+searchHidden: true
 ---
 
 <style>

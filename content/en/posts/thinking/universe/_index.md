@@ -1,6 +1,7 @@
 ---
 title: "Universe"
 layout: "page"
+searchHidden: true
 ---
 
 <style>

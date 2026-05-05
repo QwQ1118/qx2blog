@@ -1,6 +1,7 @@
 ---
 title: "Free Will"
 layout: "page"
+searchHidden: true
 ---
 
 <style>

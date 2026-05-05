@@ -1,6 +1,7 @@
 ---
 title: "寻此苦旅"
 layout: "page"
+searchHidden: true
 ---
 
 <style>

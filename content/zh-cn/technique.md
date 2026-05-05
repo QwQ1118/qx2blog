@@ -1,6 +1,7 @@
 ---
 title: "巧夺天工"
 layout: "page"
+searchHidden: true
 ---
 
 <style>

@@ -1,6 +1,7 @@
 ---
 title: "On the Road"
 layout: "page"
+searchHidden: true
 ---
 
 <style>

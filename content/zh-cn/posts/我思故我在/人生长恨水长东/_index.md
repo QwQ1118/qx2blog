@@ -1,6 +1,7 @@
 ---
 title: "人生长恨水长东"
 layout: "page"
+searchHidden: true
 ---
 
 <style>

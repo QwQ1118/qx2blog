@@ -1,6 +1,7 @@
 ---
 title: "Metaphysics"
 layout: "page"
+searchHidden: true
 ---
 
 <style>

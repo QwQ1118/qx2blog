@@ -1,6 +1,7 @@
 ---
 title: "自由意志"
 layout: "page"
+searchHidden: true
 ---
 
 <style>

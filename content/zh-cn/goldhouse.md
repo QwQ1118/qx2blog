@@ -1,6 +1,7 @@
 ---
 title: "黄金屋"
 layout: "page" 
+searchHidden: true
 ---
 
 <style>
@@ -10,6 +11,7 @@ layout: "page"
 .card-icon { font-size: 2rem; line-height: 1; }
 .card-title { font-weight: 600; font-size: 1.2rem; }
 </style>
+
 
 <a href="/zh-cn/" style="display:inline-block;margin-bottom:4px;color:var(--secondary);text-decoration:none;font-size:0.9rem;">主页</a>
 <h1 style="margin-top:0;margin-bottom:20px;font-size:2rem;">黄金屋</h1>

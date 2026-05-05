@@ -1,6 +1,7 @@
 ---
 title: "生命刻度"
 layout: "page"
+searchHidden: true
 ---
 
 <style>

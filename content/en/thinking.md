@@ -1,6 +1,7 @@
 ---
 title: "Thinking"
 layout: "page"
+searchHidden: true
 ---
 
 <style>

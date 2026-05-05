@@ -1,6 +1,7 @@
 ---
 title: "生活艺术"
 layout: "page"
+searchHidden: true
 ---
 
 <style>

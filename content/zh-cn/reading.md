@@ -1,6 +1,7 @@
 ---
 title: "避难所"
 layout: "page"
+searchHidden: true
 ---
 
 <style>

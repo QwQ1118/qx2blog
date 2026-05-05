@@ -4,6 +4,13 @@ date: 2026-05-04
 summary: "Dedicated to me, who successfully built a personal blog(80%) at 5 a.m."
 ---
 
+<div style="text-align:center; margin-top:32px;">
+  <a href="/en/" style="display:inline-block;margin:0 4px;color:#a09080;text-decoration:none;font-size:16px;">Home</a>
+  <a href="/en/blog/" style="display:inline-block;margin:0 4px;color:#a09080;text-decoration:none;font-size:16px;">>>Blog</a>
+  <a href="/en/thinking/" style="display:inline-block;margin:0 4px;color:#a09080;text-decoration:none;font-size:16px;">>>Thinking</a>
+  <a href="/en/posts/thinking/free-will/" style="display:inline-block;margin:0 4px;color:#a09080;text-decoration:none;font-size:16px;">>>Free Will</a>
+</div>
+
 <p style="text-align:center; font-size:1.2rem; font-weight:bold; margin-bottom:2rem;">Dedicated to me, who successfully built a personal blog(80%) at 5 a.m.</p>
 
 In fact, for a long time, I have been a particularly floating person, I often can't "settle", sometimes I even feel that I am standing on some kind of edge, maybe life, maybe life, and I will also think about what I use to keep me.
@@ -32,8 +39,8 @@ After constantly cleaning up my fat body and worn out spirit due to work, on May
 Anyway, by the time I pushed it all to github and cloudflare, a part of me was already everywhere.
 
 <div style="text-align:center; margin-top:32px;">
-  <a href="/en/" style="display:inline-block;margin:0 4px;color:var(--secondary);text-decoration:none;font-size:16px;">Home</a>
-  <a href="/en/blog/" style="display:inline-block;margin:0 4px;color:var(--secondary);text-decoration:none;font-size:16px;">>>🏠Blog</a>
-  <a href="/en/thinking/" style="display:inline-block;margin:0 4px;color:var(--secondary);text-decoration:none;font-size:16px;">>>🤔Thinking</a>
-  <a href="/en/posts/thinking/free-will/" style="display:inline-block;margin:0 4px;color:var(--secondary);text-decoration:none;font-size:16px;">>>🧠Free Will</a>
+  <a href="/en/" style="display:inline-block;margin:0 4px;color:#a09080;text-decoration:none;font-size:16px;">Home</a>
+  <a href="/en/blog/" style="display:inline-block;margin:0 4px;color:#a09080;text-decoration:none;font-size:16px;">>>Blog</a>
+  <a href="/en/thinking/" style="display:inline-block;margin:0 4px;color:#a09080;text-decoration:none;font-size:16px;">>>Thinking</a>
+  <a href="/en/posts/thinking/free-will/" style="display:inline-block;margin:0 4px;color:#a09080;text-decoration:none;font-size:16px;">>>Free Will</a>
 </div>

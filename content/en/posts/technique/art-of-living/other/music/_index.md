@@ -1,5 +1,5 @@
 ---
-title: "Small Design"
+title: "Music"
 ---
 
 <style>
@@ -17,9 +17,10 @@ title: "Small Design"
 <a href="/en/" style="display:inline-block;margin-bottom:4px;color:#a09080;text-decoration:none;font-size:16px;">Home</a>
 <a href="/en/blog/" style="display:inline-block;margin-bottom:4px;color:#a09080;text-decoration:none;font-size:16px;">>>Blog</a>
 <a href="/en/technique/" style="display:inline-block;margin-bottom:4px;color:#a09080;text-decoration:none;font-size:16px;">>>techology</a>
-<a href="/en/posts/technique/art-of-living/" style="display:inline-block;margin-bottom:4px;color:#a09080;text-decoration:none;font-size:16px;">>>art-of-living</a>
-<h1 style="margin-top:0;margin-bottom:20px;font-size:2rem;">Other</h1>
+<a href="/en/posts/technique/art-of-living/" style="display:inline-block;margin-bottom:4px;color:#a09080;text-decoration:none;font-size:16px;">>>art of living</a>
+<a href="/en/posts/technique/art-of-living/other/" style="display:inline-block;margin-bottom:4px;color:var(--secondary);text-decoration:none;font-size:16px;">>>other</a>
+<h1 style="margin-top:0;margin-bottom:20px;font-size:2rem;">Music</h1>
 
 <p style="color: #999; font-size: 1rem; line-height: 1.7; margin-bottom: 2rem;">
-  Some small designs in life, scattered ideas and attempts.
+  Melody and rhythm, a refuge for the soul.
 </p>

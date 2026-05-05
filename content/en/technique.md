@@ -1,6 +1,7 @@
 ---
 title: "Technique"
 layout: "page"
+searchHidden: true
 ---
 
 <style>

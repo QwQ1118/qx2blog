@@ -1,6 +1,7 @@
 ---
 title: "我思故我在"
 layout: "page"
+searchHidden: true
 ---
 
 <style>

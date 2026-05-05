@@ -4,7 +4,40 @@ layout: "page"
 ---
 
 <style>
-.page-header { display: none !important; }
+/* 文章列表样式 */
+.article-list {
+  margin-top: 2rem;
+}
+.article-item {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--border);
+}
+.article-item h2 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+.article-item h2 a {
+  color: var(--primary);
+  text-decoration: none;
+}
+.article-item h2 a:hover {
+  text-decoration: underline;
+}
+.article-date {
+  font-size: 0.85rem;
+  color: var(--secondary);
+  margin-bottom: 5px;
+}
+.article-summary {
+  color: var(--secondary);
+  line-height: 1.6;
+}
+
+/* 隐藏自动生成的标题和面包屑 */
+.page-header {
+  display: none !important;
+}
 </style>
 
 <a href="/en/" style="display:inline-block;margin-bottom:4px;color:var(--secondary);text-decoration:none;font-size:16px;">Home</a>

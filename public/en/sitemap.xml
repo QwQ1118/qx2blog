@@ -2,7 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/en/posts/technique/art-of-living/</loc>
+    <lastmod>2026-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/technique/techology/blog-setup/</loc>
+    <lastmod>2026-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/technique/art-of-living/other/chinese-brush/</loc>
+    <lastmod>2026-05-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/en/posts/thinking/free-will/</loc>
+    <lastmod>2026-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/technique/art-of-living/other/music/</loc>
+    <lastmod>2026-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/technique/art-of-living/other/</loc>
     <lastmod>2026-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/posts/</loc>
@@ -31,10 +46,23 @@
                 href="http://localhost:1313/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/posts/thinking/free-will/my-first-posts/</loc>
+    <loc>http://localhost:1313/en/posts/technique/art-of-living/small-design/</loc>
     <lastmod>2026-05-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/posts/technique/art-of-living/small-design/</loc>
+    <loc>http://localhost:1313/en/posts/technique/techology/</loc>
+    <lastmod>2026-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/technique/art-of-living/other/chinese-brush/test/</loc>
+    <lastmod>2026-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/technique/art-of-living/other/music/test/</loc>
+    <lastmod>2026-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/technique/art-of-living/small-design/test/</loc>
+    <lastmod>2026-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/posts/thinking/free-will/my-first-posts/</loc>
+    <lastmod>2026-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/about/</loc>
     <xhtml:link
@@ -49,8 +77,6 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/posts/on-the-road/abroad/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/posts/technique/art-of-living/</loc>
   </url><url>
     <loc>http://localhost:1313/en/blog/</loc>
   </url><url>
@@ -143,8 +169,6 @@
                 hreflang="en"
                 href="http://localhost:1313/en/technique/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/en/posts/technique/techology/</loc>
   </url><url>
     <loc>http://localhost:1313/en/thinking/</loc>
     <xhtml:link

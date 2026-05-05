@@ -1,6 +1,7 @@
 ---
 title: "杂七杂八"
 layout: "page"
+searchHidden: true
 ---
 
 <style>

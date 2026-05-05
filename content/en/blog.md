@@ -1,6 +1,7 @@
 ---
 title: "Blog"
 layout: "page"
+searchHidden: true
 ---
 
 <style>

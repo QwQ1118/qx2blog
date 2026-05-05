@@ -1,6 +1,7 @@
 ---
 title: "走近科学转圈圈"
 layout: "page"
+searchHidden: true
 ---
 
 <style>

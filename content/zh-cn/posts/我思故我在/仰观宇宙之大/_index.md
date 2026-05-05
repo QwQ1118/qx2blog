@@ -1,6 +1,7 @@
 ---
 title: "仰观宇宙之大"
 layout: "page"
+searchHidden: true
 ---
 
 <style>
