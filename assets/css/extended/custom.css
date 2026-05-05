@@ -10,14 +10,11 @@ body, h1, h2, h3, h4, h5, h6, p, a, li, button, span, div {
 }
 
 /* =========================================
-   使用系统原生 Segoe UI 字体（无需加载外部文件）
+   封面元素尺寸和间距微调
    ========================================= */
-body, h1, h2, h3, h4, h5, h6, p, a, li, button, span, div {
-    font-family: 'Cascadia Mono', 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', monospace !important;
-  font-synthesis: none !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* 头像大小 */
+.profile img { width: 120px !important; height: 120px !important; }
+/* ... (保留你原有的封面、导航栏、代码块等所有有效样式) ... */
 
 /* =========================================
    封面元素尺寸和间距微调
