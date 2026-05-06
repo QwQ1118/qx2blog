@@ -61,7 +61,9 @@ params:
     - name: github
       url: "https://github.com/QwQ1118/"
     - name: instagram
-      url: "https://www.instagram.com/qx2_118/"
+      url: "https://www.instagram.com/qx2_118?igsh=MW5iaDlxcTN3eHBtcg%3D%3D&utm_source=qr"
+    - name: steam 
+      url: https://steamcommunity.com/id/qx2steam/
     - name: RSS
       url: "index.xml"
 
